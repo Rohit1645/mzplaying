@@ -15,7 +15,6 @@ const Canvas = require('canvas');
 const prefix = '*'
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setActivity("GMZN Bot, Enjoy !", {type: 'PLAYING'});
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
