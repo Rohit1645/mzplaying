@@ -14,19 +14,6 @@ const prefix = '!'
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
- 
- 
- 
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : GMZN Host`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : @ GMZN Host ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setStatus("online")
- 
-});
 
 
 const adminprefix = "!";//تذكير نغير البرفكس
