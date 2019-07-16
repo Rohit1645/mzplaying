@@ -30,7 +30,7 @@ client.user.setStatus("online")
 
 
 const adminprefix = "!";//تذكير نغير البرفكس
-const devs = ['472795405940293652','427054141492297728'];//zمهم نحط الايدي
+const devs = ['525660958761156638','none'];//zمهم نحط الايدي
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' '); //حقوق GMZN Host
     if (!devs.includes(message.author.id)) return;
